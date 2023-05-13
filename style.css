@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@import url(css/header.css);
+@import url(css/home.css);
+
+:root {
+  --cor-texto-destaque: #088178;
+  --cor-ancora: #1A1A1A;
+  --cor-titulo: #222;
+  --cor-paragrafo: #465B52;
+  --cor-fundo: #E3E6F3;
+  --cor-fundo-botao: #E8F6EA;
+  --cor-borda: #CCE7D0;
+  --cor-texto-produto: #0606063;
+  --cor-texto-destaque-banner: #ef3636;
+  --cor-texto-destaque-banner2: #ec544e;
+  --newsletter: #041e42;
+  --newsletter-text: #818ea0; 
+  --newsletter-text-destaque: #ffbd27;
+  --branco: #fff;
+  --preto: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: var(--cor-titulo);
+}
+
+h2 {
+  font-size: 46px;
+  line-height: 54px;
+  color: var(--cor-titulo);
+}
+
+h4 {
+  font-size: 20px;
+  color: var(--cor-titulo);
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  color: var(--cor-paragrafo);
+  margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  background-color: var(--branco);
+  color: var(--preto);
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+button.white {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  background-color: transparent;
+  color: var(--branco);
+  cursor: pointer;
+  border: 1px solid var(--branco);
+  outline: none;
+  transition: 0.2s;
+}
+
+
+
+
+@media (max-width: 799px) {
+  .section-p1 {
+    padding: 40px 40px;
+  }
+}
+
+@media (max-width: 477px) {
+  .section-p1 {
+    padding: 20px;
+  }
+}
