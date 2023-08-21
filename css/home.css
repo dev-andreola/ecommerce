@@ -580,7 +580,7 @@ footer a:hover {
 
 
 
-@media (max-width: 477px) {
+@media (max-width: 568px) {
   #header {
     padding: 10px 30px;
   }
@@ -590,16 +590,17 @@ footer a:hover {
     background-position: 55%;
   }
 
-  h2 {
+  #hero h2 {
     font-size: 32px;
   }
 
-  h1 {
+  #hero h1 {
     font-size: 38px;
   } 
 
+
   #feature {
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   #feature .fe-box {

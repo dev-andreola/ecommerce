@@ -2,6 +2,7 @@
 
 @import url(css/header.css);
 @import url(css/home.css);
+@import url(css/shop.css);
 
 :root {
   --cor-texto-destaque: #088178;
@@ -43,6 +44,7 @@ h1 {
 }
 
 h2 {
+  font-weight: 600;
   font-size: 46px;
   line-height: 54px;
   color: var(--cor-titulo);
