@@ -73,6 +73,7 @@
   border-radius: 4px;
   color: var(--cor-texto-destaque);
   background-color: #fddde4;
+  user-select: none;
 }
 
 #feature .fe-box:nth-child(2) h6 {
