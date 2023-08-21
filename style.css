@@ -3,6 +3,7 @@
 @import url(css/header.css);
 @import url(css/home.css);
 @import url(css/shop.css);
+@import url(css/sproduct.css);
 
 :root {
   --cor-texto-destaque: #088178;
