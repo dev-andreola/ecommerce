@@ -297,7 +297,7 @@
   background-position: center;
   padding: 20px;
   margin-bottom: 20px;
-  cursor: default;
+  cursor: pointer;
 }
 
 #banner3 .banner-box3 h2 {
@@ -414,6 +414,7 @@ footer .logo {
 footer h4 {
   font-size: 14px;
   padding-bottom: 20px;
+  font-weight: 600;
 }
 
 footer p {
@@ -458,6 +459,9 @@ footer .copyright {
   text-align: center;
 }
 
+footer .icon {
+  cursor: default;
+}
 
 
 /* FOOTER HOVER EFFECTS */
