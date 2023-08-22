@@ -59,6 +59,7 @@
 #contact-form {
   display: flex;
   justify-content: space-between;
+  gap: 5px;
   margin: 30px;
   padding: 80px;
   border: 1px solid var(--form-outline);
@@ -123,7 +124,7 @@
 
 /* MEDIA QUERIES */
 
-@media (max-width: 1000px) {
+@media (max-width: 1031px) {
   #contact-form {
     padding: 40px;
   }
