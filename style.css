@@ -4,6 +4,7 @@
 @import url(css/home.css);
 @import url(css/shop.css);
 @import url(css/sproduct.css);
+@import url(css/blog.css);
 
 :root {
   --cor-texto-destaque: #088178;
@@ -19,6 +20,7 @@
   --newsletter: #041e42;
   --newsletter-text: #818ea0; 
   --newsletter-text-destaque: #ffbd27;
+  --blog-data: #c9cbce;
   --branco: #fff;
   --preto: #000;
 }
