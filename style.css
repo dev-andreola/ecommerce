@@ -5,6 +5,7 @@
 @import url(css/shop.css);
 @import url(css/sproduct.css);
 @import url(css/blog.css);
+@import url(css/about.css);
 
 :root {
   --cor-texto-destaque: #088178;
@@ -21,6 +22,7 @@
   --newsletter-text: #818ea0; 
   --newsletter-text-destaque: #ffbd27;
   --blog-data: #c9cbce;
+  --about-text: #ccc;
   --branco: #fff;
   --preto: #000;
 }
@@ -42,6 +44,7 @@ body {
 
 h1 {
   font-size: 50px;
+  font-weight: 700;
   line-height: 64px;
   color: var(--cor-titulo);
 }
