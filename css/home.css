@@ -241,6 +241,10 @@
   flex-wrap: wrap;
 }
 
+#banner2 a {
+  text-decoration: none;
+}
+
 #banner2 .banner-box {
   display: flex;
   flex-direction: column;
@@ -297,7 +301,7 @@
   background-position: center;
   padding: 20px;
   margin-bottom: 20px;
-  cursor: pointer;
+  cursor: default;
 }
 
 #banner3 .banner-box3 h2 {
@@ -307,7 +311,7 @@
 }
 
 #banner3 .banner-box3 h3 {
-  color: var(--cor-texto-destaque-banner2);
+  color: var(--cor-fundo);
   font-weight: 800;
   font-size: 15px;
 }
@@ -463,6 +467,9 @@ footer .icon {
   cursor: default;
 }
 
+footer .pay {
+  cursor: pointer;
+}
 
 /* FOOTER HOVER EFFECTS */
 
