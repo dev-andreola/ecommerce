@@ -44,6 +44,9 @@
   color: var(--cor-ancora);
   transition: 0.3s ease;
 }
+#navbar li .bag ion-icon {
+  color: var(--cor-texto-destaque);
+}
 
 
 
@@ -56,6 +59,7 @@
 #navbar li a.active {
   color: var(--cor-texto-destaque);
 }
+
 
 #navbar li a.active::after,
 #navbar li a:hover::after {

@@ -20,9 +20,9 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="shop.html">Shop</a></li>
                     <li><a href="blog.html">Blog</a></li>
-                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li id="cart-icon"><a href="cart.html"><ion-icon name="cart-outline"></ion-icon></a></li>
+                    <li id="cart-icon"><a href="cart.html" class="active bag"><ion-icon name="cart-outline"></ion-icon></a></li>
                     <a href="#" id="close"><ion-icon name="close-outline"></ion-icon></a>
                 </ul>
             </div>
@@ -35,71 +35,81 @@
 
         <!-- HERO -->
         <section id="page-header" class="about-header">
-            <h2>#knowus</h2>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <h2>#letstalk</h2>
+            <p>Leave a message, we love to hear from you!</p>
         </section>
 
-        <!-- ABOUT US -->
-        <section id="about" class="section-p1">
-          <img src="img/about/a6.jpg" alt="">
-          <div class="about-text">
-            <h2>Who We Are?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quis quos voluptatibus natus, animi nulla eius enim harum suscipit praesentium aspernatur ratione aut nostrum quasi, dolor iure culpa quisquam explicabo!</p>
-            <abbr title="">Create stunning images with as much or as little control as you like thanks to a choice of Basic and Creative modes</abbr>
-            <br><br>
-            <marquee bgcolor="#ccc" loop="-1" scrollamount="5" width="100%">Create stunning images with as much or as little control as you like thanks to a choice of Basic and Creative modes</marquee>
-          </div>
+        <section id="cart" class="section-p1">
+          <table width="100%">
+            <thead>
+              <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Subtotal</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="#"><ion-icon name="close-circle-outline"></ion-icon></a></td>
+                <td><img src="img/products/f1.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirt</td>
+                <td>R$80,00</td>
+                <td><input type="number" value="1" min="1"></td>
+                <td>R$80,00</td>
+              </tr>
+              <tr>
+                <td><a href="#"><ion-icon name="close-circle-outline"></ion-icon></a></td>
+                <td><img src="img/products/f2.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirt</td>
+                <td>R$80,00</td>
+                <td><input type="number" value="1" min="1"></td>
+                <td>R$80,00</td>
+              </tr>
+              <tr>
+                <td><a href="#"><ion-icon name="close-circle-outline"></ion-icon></a></td>
+                <td><img src="img/products/f3.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirt</td>
+                <td>R$80,00</td>
+                <td><input type="number" value="1" min="1"></td>
+                <td>R$80,00</td>
+              </tr>
+            </tbody>
+          </table>
         </section>
 
-        <!-- ABOUT APP -->
-        <section id="about-app" class="section-p1">
-          <h1>Download Our <a href="#">App</a></h1>
-          <div class="video">
-            <video autoplay muted loop src="img/about/1.mp4"></video>
-          </div>
-        </section>
-
-        <!-- FEATURE -->
-        <section id="feature" class="section-p1">
-          <div class="fe-box">
-              <img src="img/features/f1.png" alt="">
-              <h6>Free Shipping</h6>
-          </div>
-          <div class="fe-box">
-              <img src="img/features/f2.png" alt="">
-              <h6>Online Order</h6>
-          </div>
-          <div class="fe-box">
-              <img src="img/features/f3.png" alt="">
-              <h6>Save Money</h6>
-          </div>
-          <div class="fe-box">
-              <img src="img/features/f4.png" alt="">
-              <h6>Promotions</h6>
-          </div>
-          <div class="fe-box">
-              <img src="img/features/f5.png" alt="">
-              <h6>Happy Sell</h6>
-          </div>
-          <div class="fe-box">
-              <img src="img/features/f6.png" alt="">
-              <h6>24/7 Support</h6>
+        <section id="cart-cards" class="section-p1">
+          <div id="cupom">
+            <h3>Apply Coupon</h3>
+            <div>
+              <input type="text" placeholder="Enter Your Coupon">
+              <button class="normal">Apply</button>
+            </div>
           </div>
 
+          <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+              <tr>
+                <td>Cart Subtotal</td>
+                <td>R$335,00</td>
+              </tr>
+              <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+              </tr>
+              <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>R$335,00</strong></td>
+              </tr>
+            </table>
+            <button class="normal">Proceed to Checkout</button>
+          </div>
         </section>
+       
 
-        <!-- NEWSLETTER -->
-        <section id="newsletter" class="section-p1 section-m1">
-          <div class="text">
-              <h4>Sign Up For NewsLetter</h4>
-              <p>Get E-mail updates about our latest shop and <span>special offers</span>.</p>
-          </div>
-          <div class="form">
-              <input type="email" placeholder="Your e-mail adress">
-              <button class="normal">Sign Up</button>
-          </div>
-        </section>
-        
         <!-- FOOTER -->
         <footer class="section-p1">
             <div class="col">

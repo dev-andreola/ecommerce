@@ -7,6 +7,7 @@
 @import url(css/blog.css);
 @import url(css/about.css);
 @import url(css/contact.css);
+@import url(css/cart.css);
 
 :root {
   --cor-texto-destaque: #088178;
@@ -56,6 +57,10 @@ h2 {
   font-size: 46px;
   line-height: 54px;
   color: var(--cor-titulo);
+}
+
+h3 {
+  font-weight: 700;
 }
 
 h4 {
