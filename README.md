@@ -15,11 +15,11 @@ Cara Clothing is a responsive e-commerce interface I built using HTML and CSS at
 
 ### :desktop_computer: Desktop
 
-<img src="/readme-layout-desktop.jpg"/>
+<img src="img/readme/desktop-print.png"/>
 
 ### :iphone: Mobile
 
-<img src="/readme-layout-mobile.jpg" />
+<img src="img/readme/mobile-print.png" />
 
 ## :computer: Dependencies
 
