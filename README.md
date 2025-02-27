@@ -19,7 +19,7 @@ Cara Clothing is a responsive e-commerce interface I built using HTML and CSS at
 
 ### :iphone: Mobile
 
-<img src="img/readme/mobile-print.png" />
+<img width=480 src="img/readme/mobile-print.png" />
 
 ## :computer: Dependencies
 
